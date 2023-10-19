@@ -25,6 +25,13 @@ the `TryVerifyCodeSignature` is not called anymore in the patched DLL
  4. replace them
  5. use SEB as you would normally
 
+## Changelog
+
+19/10/23:
+- added support for SEB 3.5.0
+- you can now open other apps on the guest machine by opening task manager (ctrl + alt + del) and then open the file location of a process in the task manager and navigate around to open whatever you need
+- DISCLAIMER : i haven't done a lot of tests with this version if you find any report it
+
 ## Recommendations
 
 to make SEB run inside a VM you should rather create a hardened VM by changing what i listed that is used to detect them.
